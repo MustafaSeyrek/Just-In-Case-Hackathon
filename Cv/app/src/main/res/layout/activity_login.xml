@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7986CB">
+
+    <EditText
+        android:id="@+id/editKullaniciAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:ems="10"
+        android:hint="   Kullanıcı Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/imgLogo"
+        app:layout_constraintStart_toStartOf="@+id/imgLogo"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <EditText
+        android:id="@+id/editSifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:ems="10"
+        android:hint="   Şifre"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editKullaniciAdi"
+        app:layout_constraintStart_toStartOf="@+id/editKullaniciAdi"
+        app:layout_constraintTop_toBottomOf="@+id/editKullaniciAdi" />
+
+    <Button
+        android:id="@+id/btnGiris"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rounded_button"
+        android:text="GİRİŞ YAP"
+        android:textSize="18sp"
+        app:backgroundTint="#FFB0BEC5"
+        app:layout_constraintEnd_toEndOf="@+id/editSifre"
+        app:layout_constraintStart_toStartOf="@+id/editSifre"
+        app:layout_constraintTop_toBottomOf="@+id/editSifre" />
+
+    <Button
+        android:id="@+id/btnKayıt"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_button"
+        android:text="Kayıt Ol"
+        android:textSize="18sp"
+        app:backgroundTint="#FFB0BEC5"
+        app:layout_constraintEnd_toEndOf="@+id/btnGiris"
+        app:layout_constraintStart_toStartOf="@+id/btnGiris"
+        app:layout_constraintTop_toBottomOf="@+id/btnGiris" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Şifremi unuttum!"
+        android:textColor="#ED0F0F"
+        app:layout_constraintEnd_toEndOf="@+id/editSifre"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/editSifre"
+        app:layout_constraintTop_toBottomOf="@+id/editSifre" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

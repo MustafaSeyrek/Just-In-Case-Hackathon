@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Anasayfa" />
+        <item
+            android:id="@+id/nav_mesajlar"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Mesajlar" />
+        <item
+            android:id="@+id/nav_uazmanlar"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="Uzmanlar" />
+        <item
+            android:id="@+id/nav_arkadaslar"
+            android:icon="@drawable/ic_baseline_supervisor_account_24"
+            android:title="Arkadaslar" />
+        <item
+            android:id="@+id/nav_cv"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            android:title="CV'lerim" />
+        <item
+            android:id="@+id/nav_destek"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="Destek" />
+        <item
+            android:id="@+id/nav_cikis"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Çıkış" />
+    </group>
+</menu>
