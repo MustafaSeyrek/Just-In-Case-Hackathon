@@ -6,5 +6,5 @@ Android Studio ortamında Java ile yazıldı.
 Mustafa SEYREK -
 Sezer BUĞDAY -
 Yusuf ÖZKAN -
-Muhammet SADIK
+Muhammed SADIK
 
